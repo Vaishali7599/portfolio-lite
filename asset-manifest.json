@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portfolio-lite/static/css/main.e94ad4be.css",
+    "main.js": "/portfolio-lite/static/js/main.d7c0f358.js",
+    "static/media/bird image.jpg": "/portfolio-lite/static/media/bird image.71ddfd628649332954af.jpg",
+    "index.html": "/portfolio-lite/index.html",
+    "main.e94ad4be.css.map": "/portfolio-lite/static/css/main.e94ad4be.css.map",
+    "main.d7c0f358.js.map": "/portfolio-lite/static/js/main.d7c0f358.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e94ad4be.css",
+    "static/js/main.d7c0f358.js"
+  ]
+}
