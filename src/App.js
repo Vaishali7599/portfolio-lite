@@ -1,56 +1,33 @@
-// import Navbar from "./components/Navbar.js";
-import Navbar from "./components/Navbar.js";
-import About from "./components/About.js";
-import Section from "./components/Section.js";
-import Footer from "./components/Footer.js";
-
-
-import "./style.css";
-
-const sectionData = [
-    {
-        heading: "Section 1",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro, expedita aut laudantium asperiores velit commodi natus mollitia quasi sunt quidem corrupti doloremque ullam consequatur cumque! Harum repellat velit commodi."
-    },
-    {
-        heading: "Section 2",
-        description: "Lorem ipsum dolor sit amet consectetur adipi sicing elit. Sint porro, expedita aut laudantium asperiores velit commodi natus mollitia quasi sunt quidem corrupti doloremque ullam consequatur cumque! Harum repellat velit commodi."
-    },
-    {
-        heading: "Section 3",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro, expedita aut laudantium asperiores velit commodi natus mollitia quasi sunt quidem corrupti doloremque ullam consequatur cumque! Harum repellat velit commodi."
-    }
-]
+import React from 'react'
+// import Basics from './Components/Basics'
+// import CounterApp from './Components/CounterApp'
+// import Object from './Components/Object'
+// import Form1 from './Components/Form1'
+// import Form2 from './Components/Form2'
+// import Fruits from './Components/Fruits'
+// import Movie from './Components/Movie'
+// import "./style.css"
+// import Async from './Components/Async'
+import WeatherApp from './Components/WeatherApp'
 
 
 const App = () => {
-    return (
-        <div>
-            <Navbar/>
-             <About/>
-             {
-                sectionData.map((value, index)=>{
-                    return (
-                        <Section key = {index}
-                        heading={value.heading}
-                        description={value.description}
-                    />
-                    )
-                    
-                })
-             }
-             <Footer />
 
+    
+  return (
+    <div>
+      {/* <Basics/> */}
+      {/* <CounterApp/> */}
+      {/* <Object/> */}
+      {/* <Form1/> */}
+      {/* <Form2/> */}
+      {/* <Fruits/> */}
+      {/* <Movie/> */}
+      {/* <Async/> */}
+      <WeatherApp/>
 
-           
-
-
-          
-        </div>
-
-    )
+    </div>
+  )
 }
-export default App;
 
-//map, filter, reduce => array //for looping in react js
-//if else, switch = > ternary, short circuit operator
+export default App

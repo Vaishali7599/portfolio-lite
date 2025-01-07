@@ -1,51 +1,23 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.navbar{
-    text-align: center;
-    
+.movie-list p{
     background-color: black;
-    color: white;
-}
-
-/* .navbar a{
-    color: white;
-    text-decoration: none;
-
-} */
-.navbar .menu a{
-    color: tomato;
-    text-decoration: none;
-    margin-right: 5px;
-
-}
-
-
-.about h1{
-    text-align: center;
-}
-.about img{
-    display: block;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    text-align: center;
-
-    margin: 0 auto;
-}
-.footer{
-    /* text-decoration: none; */
+    color: aquamarine;
     padding: 10px;
-    
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    background-color: black;
-    color: white;
+    width: fit-content;
+    margin: 5px;
+    border-radius: 10px;
 }
-.footer a{
-    text-decoration: none;
+.movie-display{
+    padding: 10px;
+    margin: 40px;
+    width: fit-content;
+    background-color: black;
+    border-radius: 5px;
+    border: 6px solid lightseagreen;
+    outline-color: black;
+    color: darkcyan;
+
+}
+.movie-display h2{
+    color: lightgreen;
+    text-decoration: underline;
 }
